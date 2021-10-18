@@ -1,0 +1,92 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkorange;
+    transition: 0.5s ease all;
+}
+
+body {
+    background: url("https://images.photowall.com/products/73806/foggy-forest-grey.jpg?h=699&q=85") 0 0/cover no-repeat;
+    font: 16px/1.5rem sans-serif;
+    color: #3d3434;
+    padding: 0 20px;
+}
+
+
+h1 {
+    color: rgba(21, 30, 29, 0.97);
+
+}
+
+h2 {
+    color: antiquewhite;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+
+img:hover {
+    width: 52%;
+    height: auto;
+}
+
+.textStyle {
+    color: white;
+}
+
+ul {
+    background: rgba(0, 0, 0, 0.18);
+    border: 1px solid black;
+    text-align: justify;
+    padding: 10px 15px;
+    border-radius: 5px;
+    line-height: 1.7rem;
+}
+
+span {
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+li {
+    color: white;
+    letter-spacing: 0.5px;
+    padding: 5px 0;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.54);
+    text-decoration: underline;
+    color: white;
+
+}
+
+li a:hover {
+    color: gold;
+}
+
+
+
+
