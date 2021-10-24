@@ -1,0 +1,68 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#header, #footer {
+    background: yellow;
+    flex: 1 1 auto;
+}
+
+#header, #footer, #menu, .post {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    flex: 6 1 auto;
+    display: flex;
+    column-gap: 10px;
+    padding: 10px 0;
+}
+
+.menuCover {
+    display: flex;
+    background: deeppink;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.subWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 6 1 auto;
+}
+
+.post {
+    flex: 1 1 auto;
+    background: blue;
+}
+
+.post:first-child {
+    margin-bottom: 10px;
+}
+
+span {
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    font-weight: 700;
+}

@@ -1,0 +1,54 @@
+
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.74);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.common {
+    display: flex;
+    text-align: center;
+    font: 30px sans-serif;
+    font-weight: bold;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.a {
+    background: dimgrey;
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.b {
+    background: #c7bf0d;
+    flex: 2 1 70%;
+}
+
+.c {
+    background: hotpink;
+    flex: 1 1 30%;
+}
+
