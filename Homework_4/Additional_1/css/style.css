@@ -1,0 +1,93 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    background: #fff;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.container, .subContent1, .subContent2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.header {
+    background: aqua;
+}
+
+.content {
+    display: flex;
+    flex: 6 1 auto;
+    column-gap: 5px;
+}
+
+.subContent1, .header, .hero, .extraContent, .posts, .footer {
+    flex: 1 1 auto;
+}
+
+.hero {
+    background: #e69fff;
+}
+
+.sidebar {
+    background: #cec775;
+    flex: 3 1 auto;
+}
+
+.subContent2 {
+    flex: 4 1 auto;
+}
+
+.mainContent {
+    background: #ffda1e;
+    flex: 3 1 auto;
+}
+
+.extraContent {
+    background: dimgrey;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1.5 1 auto;
+    column-gap: 5px;
+}
+
+.images {
+    background: #055d05;
+    flex: 4 1 auto;
+}
+
+.posts {
+    background: lightpink;
+}
+
+.header, .hero, .sidebar, .mainContent, .extraContent, .images, .posts, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.footer {
+    background: darkorange;
+}
