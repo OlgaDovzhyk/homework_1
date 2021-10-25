@@ -1,0 +1,58 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 100vh;
+    background: white;
+    padding: 10px;
+    margin: 0 auto;
+    row-gap: 10px;
+    }
+
+.homeAbout {
+    display: flex;
+    flex: 3 1 auto;
+    column-gap: 10px;
+}
+
+.homeAbout > div {
+    background: rgba(0, 0, 205, 0.58);
+    flex: 1 1 auto;
+}
+
+.kabobs {
+    background: rgba(0, 191, 255, 0.65);
+    flex: 1 1 auto;
+}
+
+.footer {
+    display: flex;
+    flex: 1.5 1 auto;
+    column-gap: 10px;
+}
+
+.homeAbout > div, .kabobs, .footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    }
+
+.footer > div {
+    background: rgba(0, 0, 139, 0.87);
+    flex: 1 1 auto;
+}

@@ -1,0 +1,80 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    padding: 20px;
+}
+
+.container, .content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.a {
+    background: palegreen;
+    flex: 2 1 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex: 4 1 auto;
+    column-gap: 10px;
+}
+
+.content {
+    flex: 4 1 auto;
+}
+
+.b {
+    background: palegoldenrod;
+    column-gap: 10px;
+}
+
+.subContent {
+    display: flex;
+    flex: 1 1 auto;
+    column-gap: 10px;
+}
+
+.c {
+    background: lightskyblue;
+}
+
+.d {
+    background: mediumpurple;
+}
+
+.e {
+    background: #e1de22;
+}
+
+.b, .c, .d, .e, .f {
+    flex: 1 1 auto;
+}
+
+.a, .b, .c, .d, .e, .f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.f {
+    background: paleturquoise;
+}
