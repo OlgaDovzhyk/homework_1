@@ -1,0 +1,54 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    width: 35vw;
+    height: 100vh;
+    row-gap: 20px;
+}
+
+.bg {
+    background: dodgerblue;
+}
+
+.flex {
+    flex: 1 1 auto;
+}
+
+.container__content {
+    display: flex;
+    column-gap: 20px;
+}
+
+.container__content_widgets {
+    background: darkblue;
+    flex: 1 1 auto;
+}
+
+.container__common {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.container__footer {
+    flex: 2 1 auto;
+}
+

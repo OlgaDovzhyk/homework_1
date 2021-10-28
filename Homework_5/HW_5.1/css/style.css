@@ -1,0 +1,53 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.74);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.common {
+    text-align: center;
+    font: 30px sans-serif;
+    font-weight: bold;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__div {
+    background: dimgrey;
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    column-gap: 10px;
+}
+
+.wrapper__div_left {
+    background: #c7bf0d;
+    flex: 2 1 70%;
+}
+
+.wrapper__div_right {
+    background: hotpink;
+    flex: 1 1 30%;
+}
