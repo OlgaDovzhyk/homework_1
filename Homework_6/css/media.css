@@ -1,0 +1,112 @@
+@media screen and (max-width: 767px) {
+    .soc-icon {
+        display: none;
+    }
+
+    .header__top {
+        padding: 50px 0;
+    }
+
+
+    .nav, .header__logo {
+        display: none;
+    }
+
+    /*  burger menu  -------------------------------------------------*/
+    .burger {
+        display: block;
+    }
+
+    /*  burger menu  // -----------------------------------------------*/
+    .products__list {
+        flex-wrap: wrap;
+    }
+
+    .products {
+        padding: 0;
+    }
+
+    .products__item {
+        width: 40%;
+    }
+
+    .itemCards__content {
+        flex-flow: wrap;
+        column-gap: 10px;
+    }
+
+    .itemCards__listings {
+        flex: 1 1 40%;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+        /*padding: 0;*/
+    }
+
+    .about__card {
+        width: 100%;
+    }
+
+    .about__grid {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .products__list {
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+
+    .products__item {
+        width: 100%;
+    }
+
+    /*.wrapper {*/
+    /*    padding: 0 0 50px;*/
+    /*}*/
+
+.itemCards__listings {
+    flex: 1 1 100%;
+    /*width: 50%;*/
+}
+
+.itemCards {
+    padding: 0;
+}
+
+.box {
+    padding-bottom: 0;
+}
+
+.itemCards__cover {
+    row-gap: 0;
+
+}
+
+    .itemCards__title {
+        padding: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
