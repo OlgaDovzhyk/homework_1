@@ -1,0 +1,438 @@
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.first-screen-left h1 {
+    font-weight: bold;
+    font-size: calc(24px + 24 * (100vw / 1442));
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    margin-top: 103px;
+}
+
+.first-screen-text {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 120px;
+    position: relative;
+}
+
+.first-screen-left .first-screen-text::before,
+.first-screen-left .first-screen-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+
+.first-screen-left .first-screen-text::before {
+    top: -55px;
+}
+
+.first-screen-left .first-screen-text::after {
+    bottom: -55px;
+}
+
+.first-screen-left {
+    padding-right: 70px;
+}
+
+.first-screen-right img {
+    width: 100%;
+}
+
+.first-screen-secondtext {
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.first-screen-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+
+.second-screen-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    margin-top: 103px;
+}
+
+.second-screen .row > * {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.second-screen-right {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    z-index: 1;
+}
+
+.second-screen-text {
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+    padding: 0 23%;
+}
+
+.second-screen-left img {
+    width: 100%;
+}
+
+.third-screen-left, .first-screen-left {
+    padding-left: 121px;
+}
+
+.third-screen-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+    margin-top: 91px;
+}
+
+.third-screen-text {
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.third-screen-right {
+    overflow: hidden;
+}
+
+.third-screen-right img {
+    width: 100%;
+    position: relative;
+    top: -50px;
+}
+
+.fourth-screen, .fifth-screen, .sixth-screen {
+    background: #FBFBFC;
+}
+
+.fourth-screen-grid {
+    padding: 0 122px 54px 112px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.fourth-screen .border {
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.fourth-screen-grid > .col > .p-3 {
+    width: 347px;
+    height: 126px;
+}
+
+.fourth-screen-grid h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+    text-align: center;
+    margin: 67px 0 42px;
+}
+
+.fourth-screen-grid img {
+    padding-right: 40px;
+    width: 90px;
+    height: auto;
+}
+
+.fourth-screen-grid p {
+    padding: 0 30px 0 0;
+}
+
+.fifth-screen-grid {
+    margin: 0 122px 0 112px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.fifth-screen-grid li {
+    list-style: none;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+    padding-left: 50px;
+}
+
+.fifth-screen-grid h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+    text-align: center;
+    padding: 43px 0 71px 0;
+}
+
+.fifth-screen-left {
+    padding: 0 54px 106px 52px;
+}
+
+.fifth-screen-right {
+    position: relative;
+    padding-right: 54px;
+}
+
+.fifth-screen-right ul > .listgap {
+    display: inline-block;
+    position: absolute;
+    padding: 5px 0 0;
+}
+
+.fifth-screen-left ul > .listgap {
+    display: inline-block;
+    position: absolute;
+    padding: 5px 0 0;
+}
+
+.sixth-screen-grid h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+    padding-top: 74px;
+    margin-bottom: 31px;
+}
+
+.sixth-screen-grid img {
+    width: 610px;
+    height: 813px;
+    border-radius: 16px;
+
+}
+
+.sixth-screen-circles {
+    width: 100px;
+    margin: 20px auto 0;
+    padding: 0;
+}
+
+.greycircle {
+    background: #80ABFF;
+    opacity: 0.35;
+    border: 1px solid #0045AC;
+    box-sizing: border-box;
+}
+
+.bluecircle {
+    background: linear-gradient(180deg, #005BE4 0%, rgba(0, 96, 241, 0) 100%), #004FC7;
+    border: 1px solid #BED8FF;
+}
+
+.circles {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.btn {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 0 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    width: 100px;
+    height: 50px;
+}
+
+.btn::before {
+    top: 30px;
+}
+
+.btnfirst::before {
+    top: 16px;
+    left: 32px;
+    transform: rotate(
+            -32deg);
+}
+
+.btnfirst::after {
+    bottom: 15px;
+    left: 32px;
+    transform: rotate(
+            32deg);
+}
+
+.btnsecond::before {
+    top: 16px;
+    left: 32px;
+    transform: rotate(
+            32deg);
+}
+
+.btnsecond::after {
+    bottom: 15px;
+    left: 32px;
+    transform: rotate(
+            -32deg);
+}
+
+.btn::before, .btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    background: rgba(0, 69, 203, 0.8);
+}
+
+.sixth-screen-grid-bottom {
+    padding: 31px 122px 82px 121px;
+}
+
+.sixth-screen-grid-bottom div {
+    width: 343px;
+    height: 54px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixth-screen-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #020303;
+    margin-top: 78px;
+}
+
+.sixth-screen-grid-bottom div p {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+    margin: 0;
+}
+
+.seventh-screen-title {
+    padding: 0;
+}
+
+.seventh-screen-title h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.seventh-screen-grid {
+    padding: 73px 121px 77px 120px;
+}
+
+.seventh-screen-text {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.seventh-screen-text > p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #464C53;
+}
+
+.seventh-screen-text button {
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px rgba(48, 67, 133, 0.5);
+    border-radius: 12px;
+    padding: 10px 70px;
+    text-align: center;
+    position: relative;
+}
+
+.seventh-screen-text button img {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 50px;
+    height: 12px;
+}
+
+.seventh-screen-image img {
+    width: 197px;
+    height: auto;
+}
+
+.seventh-screen-text p a {
+    text-decoration: none;
+}
+
+.footer-grid {
+    padding: 49px 107px 54px 120px;
+    border-top: 2px solid #EEF0F4;
+}
+
+.footer-grid h3 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #A3ADBA;
+}
+
+.footer-grid p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #9EABBB;
+}
+
+.footer-grid p a {
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,186 @@
+@media screen and (max-width: 767px) {
+
+    .first-screen-left h1 {
+        font-size: calc(24px + (24 + 24 * 0.7) * ((100vw - 280px) / 1442));
+        line-height: 45px;
+        text-align: center;
+        margin-top: 56px;
+    }
+
+    .first-screen-left {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /*-----------------------------Second-Screen--------------------------------------*/
+    .second-screen-right {
+        padding-bottom: 15px;
+    }
+
+    .second-screen-title {
+        margin-top: 60px;
+    }
+
+    .second-screen-text {
+        padding: 0 10%;
+    }
+
+    /*---------------------------Third-Screen----------------------------------------*/
+    .third-screen .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .third-screen-left {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .third-screen-right img {
+        transform: scale(1.5) translate(-15%, -4%);
+        top: -36px;
+    }
+
+    .third-screen-title {
+        margin-top: -12px;
+        text-align: center;
+        line-height: 35px;
+        font-size: calc(18px + (2 + 2 * 0.7) * ((100vw - 280px) / 1442));
+    }
+
+    /*---------------------------Fourth-Screen----------------------------------------*/
+    .fourth-screen-grid {
+        padding: 0;
+        margin-top: 0;
+        padding-bottom: 60px;
+    }
+
+    .fourth-screen-grid > .col > .p-3 {
+        width: 100%;
+    }
+
+    /*---------------------------Fifth-Screen------------------------------------------*/
+    .fifth-screen-left {
+        padding: 0 30px 0 0;
+    }
+
+    .fifth-screen-left ul {
+        padding-left: 20px;
+    }
+
+    .fifth-screen-right ul {
+        padding-left: 8px;
+    }
+
+    .fifth-screen-right {
+        padding-right: 30px;
+    }
+
+    .fifth-screen-grid {
+        margin: 0;
+    }
+
+    .fifth-screen-grid h2 {
+        font-size: calc(20px + (8 + 8 * 0.7) * ((100vw - 280px) / 1442));
+        padding-bottom: 30px;
+    }
+
+    .fifth-screen-grid li {
+        line-height: 38px;
+        padding-left: 30px;
+        font-size: calc(15px + (2 + 2 * 0.7) * ((100vw - 280px) / 1442));
+    }
+
+    /*---------------------------Sixth-Screen-------------------------------------------*/
+    .sixth-screen-grid .sixth-screen-title {
+        font-size: calc(22px + (6 + 6 * 0.7) * ((100vw - 280px) / 1442));
+        margin-top: 0;
+        padding-top: 15px;
+    }
+
+    .sixth-screen-grid img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .sixth-screen-grid-bottom {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .sixth-screen-grid-bottom div {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .sixth-screen-grid-bottom div p {
+        font-size: calc(15px + (2 + 2 * 0.7) * ((100vw - 280px) / 1442));
+    }
+
+    /*----------------------------------Seventh-Screen----------------------------------------------*/
+    .seventh-screen-grid {
+        flex-direction: column-reverse;
+        padding: 64px 0 10px 0;
+    }
+
+    .seventh-screen-image {
+        order: 2;
+        margin-bottom: 50px;
+    }
+
+    .seventh-screen-title {
+        order: 1;
+        padding: 0 0 14px 58px;
+    }
+
+    .seventh-screen-title h2 {
+        font-size: calc(26px + (4 + 4 * 0.7) * ((100vw - 280px) / 1442));
+        justify-content: center;
+    }
+
+    .seventh-screen-text {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .seventh-screen-grid button {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /*----------------------------------------Footer--------------------------------*/
+    .footer-grid {
+        flex-direction: column;
+        padding: 49px 13px 54px 30px;
+
+    }
+
+    .gap-5 {
+        gap: 0 !important;
+    }
+
+    .footer-grid div.col-xl-2 p {
+        margin-bottom: 0;
+    }
+
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 400px) {
+
+    .first-screen-left {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .seventh-screen-image img {
+        width: 155px;
+        height: auto;
+    }
+}
+
